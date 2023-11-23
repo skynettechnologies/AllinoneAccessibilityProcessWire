@@ -10,7 +10,7 @@
  * more infos in readme.md
  * 
  */
-class AllinoneAccessibility extends WireData implements Module {
+class AllinoneAccessibilityProcessWire extends WireData implements Module {
 
     /**
      * getModuleInfo is a module required by all modules to tell ProcessWire about them
@@ -104,7 +104,7 @@ California Unruh, Ontario AODA, Canada ACA, German BITV, and France RGAA Standar
         if ($this->moduleStyles) $event->return = $this->str_replace_once("<link ", "<link rel='stylesheet' type='text/css' href='{$folder}{$this}{$min}.css' /><link ", $event->return);
 
         $folder_file_name = $this->wire('config')->urls->$this;
-        $include_js_file = $folder_file_name.'AllinoneAccessibility.js';
+        $include_js_file = $folder_file_name.'AllinoneAccessibilityProcessWire.js';
 
         if ($this->moduleStyles) $event->return = $this->str_replace_once("<script ", "<script type='text/javascript' src='$include_js_file' /><script ", $event->return);
 
@@ -135,14 +135,5 @@ California Unruh, Ontario AODA, Canada ACA, German BITV, and France RGAA Standar
         }
         return $string;
     }
-
-
-//    public function cookieExists() {
-//        if ($this->wire('input')->cookie($this->cookieName)) {
-//            return __('Cookie is set');
-//        } else {
-//            return __('No cookie set');
-//        }
-//    }
 
 }

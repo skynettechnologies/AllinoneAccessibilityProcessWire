@@ -1,6 +1,6 @@
 <?php
-//include("./site/modules/AllinoneAccessibility/AllinoneAccessibility.js");
-class AllinoneAccessibilityConfig extends ModuleConfig {
+//include("./site/modules/AllinoneAccessibility/processwireAllinoneAccessibility.js");
+class AllinoneAccessibilityProcessWireConfig extends ModuleConfig {
     public function getDefaults() {
         return array(
         'useAjax' => 1,
@@ -27,7 +27,7 @@ class AllinoneAccessibilityConfig extends ModuleConfig {
     }
 
     public function __construct() {
-        $mcc = $this->wire('modules')->get('AllinoneAccessibility');
+        $mcc = $this->wire('modules')->get('AllinoneAccessibilityProcessWire');
         $this->add(array(
             array(
                 'type' => 'fieldset',
@@ -77,7 +77,7 @@ class AllinoneAccessibilityConfig extends ModuleConfig {
                             'middle_right' => __('Middle Right'),
                             'bottom_left' => __('Bottom left'),
                             'bottam_center' => __('Bottom Center'),
-                            'bottom_right' =>  __('Bottom Right'),
+                            'bottom_right' => __('Bottom Right'),
 
                         ),
             ),
@@ -88,9 +88,9 @@ class AllinoneAccessibilityConfig extends ModuleConfig {
                 'label' => __('Icon Type'),
                 'columnWidth' => 100,
                 'options' => array(
-                    'aioa-icon-type-1' => __('Accessibility'),
-                    'aioa-icon-type-2' => __('Wheelchair'),
-                    'aioa-icon-type-3' => __('Low Vision'),
+                    'aioa-icon-type-1' => __('accessibility'),
+                    'aioa-icon-type-2' => __('wheelchair'),
+                    'aioa-icon-type-3' => __('low vision'),
                 ),
             ),
             array(

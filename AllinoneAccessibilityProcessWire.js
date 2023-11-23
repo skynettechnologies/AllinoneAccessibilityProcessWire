@@ -38,12 +38,21 @@ setTimeout(function (){
             document.getElementById("Inputfield_aioa_icon_type").style.display = "none";
             var domain_name = window.location.hostname;
 
-            document.getElementById("licenseKeymsg").innerHTML = '<p id="error_message" style="color: red">License Key is invalid</p><p id="upgrade_message">Please <a href=\'https://www.skynettechnologies.com/add-ons/cart/?add-to-cart=116&variation_id=117&variation_id=117&quantity=1&utm_source="ProcessWire"&utm_medium=processwire-extension&utm_campaign=purchase-plan\' target=\'_blank\'>Upgrade</a> to full version of All in One Accessibility Pro.</p>';
+            document.getElementById("licenseKeymsg").innerHTML = '<p id="error_message" style="color: red">Key Is Invalid</p><p id="upgrade_message">Please <a href=\'https://www.skynettechnologies.com/add-ons/cart/?add-to-cart=116&variation_id=117&variation_id=117&quantity=1&utm_source="+domain_name+"&utm_medium=getgrav-extension&utm_campaign=purchase-plan\' target=\'_blank\'>Upgrade</a> to full version of All in One Accessibility Pro.</p>';
             console.log("this is final license key",lk);
             if(lk == ''){
                 console.log("final called");
-                document.getElementById("licenseKeymsg").innerHTML = '<p id="upgrade_message">Please <a href=\'https://www.skynettechnologies.com/add-ons/cart/?add-to-cart=116&variation_id=117&variation_id=117&quantity=1&utm_source="ProcessWire"&utm_medium=processwire-extension&utm_campaign=purchase-plan\' target=\'_blank\'>Upgrade</a> to full version of All in One Accessibility Pro.</p>';
+                document.getElementById("licenseKeymsg").innerHTML = '<p id="upgrade_message">Please <a href=\'https://www.skynettechnologies.com/add-ons/cart/?add-to-cart=116&variation_id=117&variation_id=117&quantity=1&utm_source="+domain_name+"&utm_medium=getgrav-extension&utm_campaign=purchase-plan\' target=\'_blank\'>Upgrade</a> to full version of All in One Accessibility Pro.</p>';
             }
+
+            // if(lk != ''){
+            //     console.log("print..........");
+            //
+            //     document.getElementById("licenseKeymsg").innerHTML = '<p id="error_message" style="color: red">Key Is Invalid</p><p id="upgrade_message">Please <a href=\'https://www.skynettechnologies.com/add-ons/cart/?add-to-cart=116&variation_id=117&variation_id=117&quantity=1&utm_source="+domain_name+"&utm_medium=getgrav-extension&utm_campaign=purchase-plan\' target=\'_blank\'>Upgrade </a>to full version of All in One Accessibility Pro.</p>';
+            // }else{
+            //     console.log("this is else part called");
+            //     document.getElementById("licenseKeymsg").innerHTML = '<p id="error_message" style="color: red">Key Is Invalid</p> <br> <p id="upgrade_message">Please <a href=\'https://www.skynettechnologies.com/add-ons/cart/?add-to-cart=116&variation_id=117&variation_id=117&quantity=1&utm_source="+domain_name+"&utm_medium=getgrav-extension&utm_campaign=purchase-plan\' target=\'_blank\'>Upgrade </a>to full version of All in One Accessibility Pro.</p>';
+            // }
         }
     })
     console.log("this is license key",lk);
@@ -89,12 +98,20 @@ setTimeout(function (){
                 document.getElementById("wrap_Inputfield_aioa_icon_type").style.display = "none";
                 document.getElementById("Inputfield_aioa_icon_type").style.display = "none";
                 var domain_name = window.location.hostname;
-                document.getElementById("licenseKeymsg").innerHTML = '<p id="error_message" style="color: red">License Key is invalid</p><p id="upgrade_message">Please <a href=\'https://www.skynettechnologies.com/add-ons/cart/?add-to-cart=116&variation_id=117&variation_id=117&quantity=1&utm_source="ProcessWire"&utm_medium=processwire-extension&utm_campaign=purchase-plan\' target=\'_blank\'>Upgrade</a> to full version of All in One Accessibility Pro.</p>';
+                document.getElementById("licenseKeymsg").innerHTML = '<p id="error_message" style="color: red">Key Is Invalid</p><p id="upgrade_message">Please <a href=\'https://www.skynettechnologies.com/add-ons/cart/?add-to-cart=116&variation_id=117&variation_id=117&quantity=1&utm_source="+domain_name+"&utm_medium=getgrav-extension&utm_campaign=purchase-plan\' target=\'_blank\'>Upgrade</a> to full version of All in One Accessibility Pro.</p>';
                 console.log("this is final license key",x);
                 if(x == ''){
                     console.log("final called");
-                    document.getElementById("licenseKeymsg").innerHTML = '<p id="upgrade_message">Please <a href=\'https://www.skynettechnologies.com/add-ons/cart/?add-to-cart=116&variation_id=117&variation_id=117&quantity=1&utm_source="ProcessWire"&utm_medium=processwire-extension&utm_campaign=purchase-plan\' target=\'_blank\'>Upgrade</a> to full version of All in One Accessibility Pro.</p>';
+                    document.getElementById("licenseKeymsg").innerHTML = '<p id="upgrade_message">Please <a href=\'https://www.skynettechnologies.com/add-ons/cart/?add-to-cart=116&variation_id=117&variation_id=117&quantity=1&utm_source="+domain_name+"&utm_medium=getgrav-extension&utm_campaign=purchase-plan\' target=\'_blank\'>Upgrade</a> to full version of All in One Accessibility Pro.</p>';
                 }
+                // if(lk != ''){
+                //     console.log("print..........");
+                //     document.getElementById("licenseKeymsg").innerHTML = '<p id="error_message" style="color: red">Key Is Invalid</p><p id="upgrade_message">Please <a href=\'https://www.skynettechnologies.com/add-ons/cart/?add-to-cart=116&variation_id=117&variation_id=117&quantity=1&utm_source="+domain_name+"&utm_medium=getgrav-extension&utm_campaign=purchase-plan\' target=\'_blank\'>Upgrade</a>to full version of All in One Accessibility Pro.</p>';
+                // }
+                // else{
+                //     console.log("this is else part called");
+                //     document.getElementById("licenseKeymsg").innerHTML = '<p id="error_message" style="color: red">Key Is Invalid</p> <br> <p id="upgrade_message">Please <a style="color: black"  href=\'https://www.skynettechnologies.com/add-ons/cart/?add-to-cart=116&variation_id=117&variation_id=117&quantity=1&utm_source="+domain_name+"&utm_medium=getgrav-extension&utm_campaign=purchase-plan\' target=\'_blank\'>Upgrade </a>to full version of All in One Accessibility Pro.</p>';
+                // }
             }
         })
     }
