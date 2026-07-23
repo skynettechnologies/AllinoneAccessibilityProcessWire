@@ -1,7 +1,3 @@
-# **All in One Accessibility® - ProcessWire Accessibility Plugin**
-
-## **Free WCAG, ADA, EAA accessibility plugin for ProcessWire websites!**
-
 This [Free ProcessWire accessibility plugin](https://www.skynettechnologies.com/all-in-one-accessibility) - adds an accessible experience for users with visual, auditory, motor, or cognitive disabilities. It supports assistive technologies, offers customizable updates, and enhances overall usability according to WCAG 2.1, 2.2, ADA, EAA, Section 508, France RGAA, California Unruh, European EAA EN 301 549, UK Equality Act, Spain UNE 139803:2012, Australian DDA, Israeli Standard 5568, Ontario AODA, Canada ACA, German BITV, Brazilian Inclusion Law (LBI 13.146/2015), JIS X 8341 (Japan), Italian Stanca Act, Indian RPwD Act, Switzerland DDA and other [accessibility standards](https://www.skynettechnologies.com/accessibility-standards).
 
 This [free accessibility widget](https://www.skynettechnologies.com/free-website-accessibility-widget) quickly add essential accessibility features through a lightweight, easy to install solution that supports inclusive browsing and compliance efforts.
