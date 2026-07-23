@@ -208,8 +208,9 @@ Account, licensing, and service-related information is retained for as long as n
 ### Privacy Policy
  
 For complete details regarding data collection, processing, retention, GDPR/CCPA compliance, and your privacy rights, please visit:
+
  
-**[Privacy Policy | Skynet Technologies USA LLC.](Privacy Policy | Skynet Technologies USA LLC.)**
+**[Privacy Policy | Skynet Technologies USA LLC.](https://www.skynettechnologies.com/privacy-policy)**
 
 ## Screenshots
 
